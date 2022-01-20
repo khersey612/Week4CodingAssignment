@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<figure class="text-center">
+<div class="container-fluid">
+    <div class="col-sm">
+        <h1 class="display-6">Inventory Master Sheet</h1>
+    </div>
+</div>
+</figure>
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm">
+        
+        <table class="table table-success table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Inventory ID</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Required Quantity</th>
+              </tr>
+            </thead>
+        
+        </div>
+        </div>
+        </div>
+        
+            <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm">
+        
+            <tbody>
+              <tr>
+                <td>00-793708</td>
+                <td>Lorem Ipsum</td>
+                <td>$30.00</td>
+                <td>25</td>
+              </tr>
+        
+        </div>
+        </div>
+        </div>
+        
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm">
+              <tr>
+                <td>00-690372</td>
+                <td>Dolor sit amet</td>
+                <td>$23.00</td>
+                <td>30</td>
+              </tr>
+        
+        </div>
+        </div>
+        </div>
+        
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm">
+              <tr>
+                <td>00-183279</td>
+                <td>Consectetur</td>
+                <td>$32.00</td>
+                <td>15</td>
+              </tr>
+
+              <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm">
+              <tr>
+                <td>00-497639</td>
+                <td>Adipiscing elit</td>
+                <td>$23.00</td>
+                <td>25</td>
+              </tr>
+        
+        </div>
+        </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm">
+          <tr>
+            <td>00-297501</td>
+            <td>Aenean vitae</td>
+            <td>$25.00</td>
+            <td>10</td>
+          </tr>
+
+          <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm">
+          <tr>
+            <td>00-780375</td>
+            <td>Nibh malesuada</td>
+            <td>$23.00</td>
+            <td>30</td>
+          </tr>
+    
+    </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm">
+      <tr>
+        <td>00-153975</td>
+        <td>Pulvinar massa</td>
+        <td>$23.00</td>
+        <td>20</td>
+      </tr>
+
+</div>
+</div>
+</div>
+    
+    </div>
+    </div>
+    </div>
+            </tbody>
+          </table>
+        
+        </div>
+        </div>
+        </div>
+<br>
+        <figure class="text-center">
+            <div class="container-fluid">
+                <div class="col-sm">
+                    <h1 class="display-6">Inventory Order Tracker</h1>
+                </div>
+            </div>
+            </figure>
+
+          
+
+            <br>
+            
+            <div class="card border-seecondary">
+              <div class="card-body text-success">
+                  <div class="row">
+                      <div class="col-sm">
+                          <div class="form-group">
+                            
+                              <label for="inventory-id">Inventory ID</label>
+                              <input type="text" class="form-control" id="inventory-id" placeholder="00-000000">
+                          </div>
+                      </div>
+                  </div>
+                      <div class="col-sm">
+                        <div class="row">
+                          <div class="form-group">
+                              <label for="product-name">Product Name</label>
+                              <input type="text" class="form-control" id="product-name" placeholder="Lorem Ipsum">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm">
+                          <div class="form-group">
+                              <label for="unit-price">Unit Price</label>
+                              <input type="text" class="form-control" id="unit-price" placeholder="$00.00">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="text" class="form-control" id="quantity" placeholder="00">
+                        </div>
+                    </div>
+                </div>
+                  <div>
+                    <br>
+                      <button  id="add" class="btn btn-secondary btn-sm form-control">Submit</button>
+                  </div>
+               
+              </div>
+          </div>
+          <br>
+           <!-- th scope="col">Inventory ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Required Quantity</th>
+            -->
+          <table id="list" class="table table-success table-striped">
+              <tr>
+                  <th>Inventory ID</th>
+                  <th>Product Name</th>
+                  <th>Unit Price</th>
+                  <th>Quantity</th>
+              </tr>
+          </table>
+      
+</body>
+
+
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">    
+    <script src="index.js"></script>
+</html>
